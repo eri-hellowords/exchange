@@ -1,5 +1,4 @@
-import {checkauth} from "../../checkauth.js";
-
+import checkauth from '../utils/checkauth.mjs'
 
 export default defineEventHandler(async (event) => {
     const query = getQuery(event);

@@ -9,7 +9,7 @@ export default defineNuxtModule({
 
     // Add an API route
     addServerHandler({
-      route: '/api/exchange',
+      route: '/api/exchange/1c',
       handler: resolve('./runtime/server/api/exchange')
     })
   }

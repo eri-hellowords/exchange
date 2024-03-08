@@ -13,4 +13,4 @@ async function checkauth(event) {
 
 
 
-export default {checkauth}
+export const checkauth = checkauth
